@@ -14,6 +14,8 @@ const Compiler18 = () => {
   return (
     <div>
         <h1>hasil react18 : {expensiveCalculation}</h1>
+        <button onClick={()=>setCount(count+1)}>add</button>
+
     </div>
   )
 }
